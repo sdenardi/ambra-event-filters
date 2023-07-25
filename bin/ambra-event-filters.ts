@@ -10,3 +10,7 @@ new AmbraEventFilterStack(app, 'ambra-event-test', {
   env,
   studyEditedEndpointUrl: 'https://dev-sd.summusglobal.com/Ambra/StudyEdited'
 });
+new AmbraEventFilterStack(app, 'ambra-event-prod', {
+  env,
+  studyEditedEndpointUrl: 'https://app.summusglobal.com/Ambra/StudyEdited'
+});
